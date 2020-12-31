@@ -4,9 +4,9 @@
 
 
 ``` python
->>> import height_pred
+>>> from height_pred import Height
 
->>> height = height_pred.Height(180, 87)
+>>> height = Height(180, 87)
 >>> height.predict()
 'Male'
 ```

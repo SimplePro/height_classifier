@@ -6,7 +6,7 @@ model = joblib.load("./height_classifier.pkl")
 
 class Height():
     def __init__(self, height=160, weight=80):
-        self.height = height[1:]
+        self.height = height - 100
         self.weight = weight
 
     def predict(self):
